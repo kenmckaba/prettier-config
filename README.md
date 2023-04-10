@@ -4,7 +4,9 @@
 
 Using the approach suggested by https://prettier.io/docs/en/configuration.html#sharing-configurations
 
-See all the options: https://prettier.io/docs/en/options.html
+See all prettier options and their defaults: https://prettier.io/docs/en/options.html
+
+The options herein are commonly used in modern code.
 
 * [trailingComma](https://prettier.io/docs/en/options.html#trailing-commas): "all"<br>
 This will add a trailing comma to each entry in a list of parameters. This way if you add or remove a parameter `git diff` won't show the previous line has changed.
